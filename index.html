@@ -1,0 +1,112 @@
+<html>
+<head>
+	<title>ALAM BALI</title>
+	<link rel="stylesheet" href=style.css>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="icon" href="icon.png">
+	<link href="css/number_slideshow.css" rel="stylesheet" type="text/css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+	<script src="js/number_slideshow.js"></script>
+
+</head>
+<body>
+	<div id="container">
+
+		<div id="header">
+			<div id="logo">
+				<h1>ALAM BALI</h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" class="active">Home</a></li>
+					<li><a href="profil.html">Profile</a></li>
+					<li><a href="service.html">Service</a></li>
+					<li><a href="booking.html">BOOKING</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="slider">
+			<div id="number_slideshow" class="number_slideshow">
+    			<ul>
+        			<li><a href="#"><img src="gb/E.jfif" width="407" height="301" alt="slideshow_large"/></a></li>
+        			<li><a href="#"><img src="gb/F.jfif" width="407" height="301" alt="slideshow_large"/></a></li>
+        			<li><a href="#"><img src="gb/C.jpg" width="407" height="301" alt="slideshow_large"/></a></li>
+			        <li><a href="#"><img src="gb/G.jfif" width="407" height="301" alt="slideshow_large"/></a></li>
+			    </ul>
+    <ul class="number_slideshow_nav">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+    </ul>
+    <div style="clear: both"></div>
+</div>
+
+		</div>
+
+		<div id="content">
+			<div id="content1">
+				<h1 class="judul"><i class="fa fa-check" aria-hidden="true">  Selamat Datang</i></h1>
+				<p class="isi">Om Swastyastu para traveller,nikmati perjalanan anda dengan mengunjungi destinasi wisata yang mendunia yang tentunya hanya ada di pulau dewata.</p>
+			</div>
+			<div id="content2">
+				<h1 class="judul"><i class="fa fa-bookmark" aria-hidden="true">  Service</i></h1>
+				<p class="isi">Dapatkan pemandu wisata asli orang bali dan mengetahui sejarah dan asal asul destinasi wisata yang kalian kunjungi,dan dapatkan potongan harga keliling bali hingga 30%,mobil offroad akan membuat perjalanan anda semakin seru dan menarik,ada juga paket menginap dan wahana seru lainnya,suksma.</p>
+			</div>
+			<div id="content3">
+				<h1 class="judul"><i class="fa fa-address-card-o" aria-hidden="true">  Alamat</i></h1>
+				<p class="isi">
+					
+					<table class="isi">
+						<tr>
+							<td>Alamat</td>
+							<td>:</td>
+							<td>Jalan Kalantaka</td>
+						</tr>
+						<tr>
+							<td>Telp.</td>
+							<td>:</td>
+							<td>08311928705</td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td>:</td>
+							<td>www.alambali.com</td>
+						</tr>
+					</table>
+				</p>
+			</div>
+		</div>
+
+		<div id="footer">
+			<p class="bawah">Copyright ADEK RAMA 2020</p>
+		</div>
+	</div>
+<script language="javascript" type="text/javascript">
+    $(function() {
+        $("#number_slideshow").number_slideshow({
+            slideshow_autoplay: 'enable',//enable disable
+            slideshow_time_interval: '3000',
+            slideshow_transition_speed: 500, //'normal','slow','fast' or numeral
+            slideshow_window_background_color: "#ccc",
+            slideshow_window_padding: '1',
+            slideshow_window_width: '960',
+            slideshow_window_height: '300',
+            slideshow_border_size: '1',
+            slideshow_border_color: 'black',
+            slideshow_show_button: 'enable',//enable disable
+            slideshow_show_title: 'enable',//enable disable
+            slideshow_button_text_color: '#CCC',
+            slideshow_button_background_color: '#333',
+            slideshow_button_current_background_color: '#666',
+            slideshow_button_current_text_color: '#000',
+            slideshow_button_border_color: '#000',
+            slideshow_loading_gif: 'loading.gif',//loading pic position, you can replace it use youself gif.
+            slideshow_button_border_size: '1'
+        });
+        });
+</script>
+
+</body>
+</html>

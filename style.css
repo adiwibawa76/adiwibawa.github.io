@@ -1,0 +1,166 @@
+#container{
+	width: 960px;
+	margin: auto;
+	
+}
+
+#header{
+	width: 960px;
+	margin-bottom: 10px;
+}
+
+#logo{
+	width: 300px;
+	background: #000;
+	height: 70px;
+	float: left;
+	margin-right: 10px;
+}
+
+#logo h1{
+	color: #fff;
+	padding-left: 10px;
+	text-align: center;
+}
+
+#menu{
+	width: 650px;
+	background: #757449;
+	height: 70px;
+	float: left;
+}
+/*=======*/
+#menu ul li{
+	list-style: none;
+	float: left;
+	padding-right: 30px;
+
+}
+
+#menu li a{
+	color: #E2DF9A;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#menu li a:hover, #menu li .active{
+	color: #000;
+}
+
+#slider{
+	width: 960px;
+	height: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#content{
+	width: 960px;
+	margin: auto;
+	float: left;
+	margin-bottom: 10px;
+}
+
+#content1{
+	width: 310px;
+	background: #E2DF9A; 
+	height: 400px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+#content2{
+	width: 310px;
+	background: #E2DF9A;
+	height: 400px;
+	float: left;
+	margin-right: 15px;
+}
+
+#content3{
+	width: 310px;
+	background: #E2DF9A;
+	height: 400px;
+	float: left;
+}
+
+#footer{
+	width: 960px;
+	background: #888;
+	height: 100px;
+	clear: both;
+}
+
+.judul{
+	padding-left: 20px;
+	color: #4B490B;
+}
+
+.isi{
+	text-align: justify;
+	padding: 10px;
+	color: #4B490B;
+}
+
+.bawah{
+	text-align: center;
+	padding: 10px 0px;
+	color: #fff;
+}
+
+/*====profil=====*/
+#content-profil{
+	width: 600px;
+	background: #E2DF9A;
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+#sidebar{
+	width: 350px;
+	height: 770px;
+	background: #E2DF9A;
+	float: left;
+	margin: 10px 0px;
+}
+
+#content-profil p{
+	text-align: justify;
+	padding: 10px;
+	color: #4B490B;
+}
+
+#img{
+	float: left;
+	padding-right: 10px;
+}
+
+#table{
+	padding-left: 30px;
+}
+
+/*====service=====*/
+.ex{
+	padding-left: 10px;
+}
+
+#img1{
+	float: left;
+	padding: 0 10px;
+}
+
+.service{
+	border-bottom: 3px solid #bbb;
+	padding-bottom: 20px
+}
+
+#listsidebar li{
+	list-style: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+#form{
+	padding-left: 30px;
+}
